@@ -121,18 +121,21 @@
 
 ## סקירת משחקים קיימים
 
-### משחק 1: *SimCity BuildIt 
-📎[קישור](https://play.google.com/store/apps/details?id=com.ea.game.simcitymobile)  
+### משחק 1: SimCity BuildIt 
+📎[קישור](https://www.ea.com/games/simcity/simcity-buildit)  
+<img width="442" height="242" alt="image" src="https://github.com/user-attachments/assets/55241843-7f8a-4a62-819a-80c8197b03f4" />
 
 ---
 
-### משחק 2: **Pocket City**  
-📎 [קישור](https://play.google.com/store/apps/details?id=com.codebrewgames.pocketcity)  
+### משחק 2: Pocket City  
+📎 [קישור](https://pocketcitygame.com/)  
+<img width="450" height="250" alt="image" src="https://github.com/user-attachments/assets/ad9171ab-2fd3-4aef-8963-30366dace548" />
 
 ---
 
-### משחק 3: **TheoTown**  
+### משחק 3: TheoTown 
 📎 [קישור](https://play.google.com/store/apps/details?id=info.flowersoft.theotown.theotown)  
+<img width="450" height="250" alt="image" src="https://github.com/user-attachments/assets/08b88ac4-92b4-4e61-bd50-082522528044" />
 
 ---
 
