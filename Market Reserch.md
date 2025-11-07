@@ -1,9 +1,5 @@
 <div dir='rtl' lang='he'>
-# 🏙️ City Manager
 
-**BUILD AND ADVANCE!**
-
----
 
 ## 1) סקירת שוק וטרנדים
 - **ז׳אנר ופלטפורמה:** סימולציה וניהול עיר (City Builder) למובייל – iOS ו־Android, משחק לשחקן יחיד.  
