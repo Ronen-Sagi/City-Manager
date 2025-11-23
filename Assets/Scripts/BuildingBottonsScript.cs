@@ -4,7 +4,7 @@ public class BuildingBottonsScript : MonoBehaviour
 {
     [SerializeField] private GameObject cityHall;
     [SerializeField] private GameObject hospital;
-    [SerializeField] private GameObject School;
+    [SerializeField] private GameObject school;
     private Building b;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -25,7 +25,7 @@ public class BuildingBottonsScript : MonoBehaviour
     
     public void BuildSchool()
     {
-        b = School.GetComponent<Building>();
+        b = school.GetComponent<Building>();
         Build();
     }
     public void BuildHospital()

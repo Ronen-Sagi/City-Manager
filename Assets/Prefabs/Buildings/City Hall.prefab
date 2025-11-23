@@ -16,13 +16,33 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2727090702989760499, guid: b52c5c89c38668f449c922c7aaf56ff8, type: 3}
+      propertyPath: m_fontSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727090702989760499, guid: b52c5c89c38668f449c922c7aaf56ff8, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5138766477301385734, guid: b52c5c89c38668f449c922c7aaf56ff8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767769472886118826, guid: b52c5c89c38668f449c922c7aaf56ff8, type: 3}
+      propertyPath: m_fontSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767769472886118826, guid: b52c5c89c38668f449c922c7aaf56ff8, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 6777437444063500464, guid: b52c5c89c38668f449c922c7aaf56ff8, type: 3}
       propertyPath: m_Name
       value: City Hall
       objectReference: {fileID: 0}
     - target: {fileID: 6777437444063500464, guid: b52c5c89c38668f449c922c7aaf56ff8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7326180238904694360, guid: b52c5c89c38668f449c922c7aaf56ff8, type: 3}
       propertyPath: m_LocalPosition.x
