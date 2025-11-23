@@ -3,25 +3,25 @@ using UnityEngine;
 
 public class MoneyUI : MonoBehaviour
 {
+    private TextMeshProUGUI moneyText;
 
     private void Start()
     {
-        // Subscribe to changes
-        ResourceManager.Instance.OnMoneyChanged += UpdateUI;
-
-        // Initialize UI with current money
-        UpdateUI(ResourceManager.Instance.Money);
+        moneyText = GetComponent<TextMeshProUGUI>();
+        ResourceManager.RM.OnMoneyChanged += UpdateUI;
+        UpdateUI(ResourceManager.RM.Money);
     }
 
     private void UpdateUI(int value)
     {
-        GetComponent<TextMeshPro>().text = "$" + value;
+        moneyText.text = "$" + value;
+        Debug.unityLogger.Log("Money UI updated: $" + value);
     }
 
     private void OnDestroy()
     {
         // Avoid errors when changing scenes
-        if (ResourceManager.Instance != null)
-            ResourceManager.Instance.OnMoneyChanged -= UpdateUI;
+        if (ResourceManager.RM != null)
+            ResourceManager.RM.OnMoneyChanged -= UpdateUI;
     }
 }

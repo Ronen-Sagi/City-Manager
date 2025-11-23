@@ -3,7 +3,7 @@ using System;
 
 public class ResourceManager : MonoBehaviour
 {
-    public static ResourceManager Instance { get; private set; }
+    public static ResourceManager RM { get; private set; }
 
     [Header("Resources")]
     [SerializeField] private int money;
@@ -13,12 +13,12 @@ public class ResourceManager : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance != null && Instance != this)
+        if (RM != null && RM != this)
         {
             Destroy(gameObject);
             return;
         }
-        Instance = this;
+        RM = this;
     }
 
     public int Money => money;

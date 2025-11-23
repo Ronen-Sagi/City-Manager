@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 2350607967219385926}
   - component: {fileID: 8626986073338127390}
   m_Layer: 0
-  m_Name: building prefab
+  m_Name: School
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -443,7 +443,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8616352, g: 0.7637551, b: 0.11109127, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -465,6 +465,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba47f1c3cbda72645ad24d14897f3977, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  cost: 500
+  cost: 300
   nameTag: {fileID: 2727090702989760499}
   levelTag: {fileID: 6767769472886118826}
