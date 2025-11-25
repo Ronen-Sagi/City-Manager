@@ -13,4 +13,4 @@
 
 [formal elements](https://github.com/Ronen-Sagi/City-Manager/blob/main/formal%20elements.md)
 
-[itch.io]()
+[itch.io](https://rs-co.itch.io/city-manager)
