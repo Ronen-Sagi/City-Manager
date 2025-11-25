@@ -36,7 +36,8 @@ public class BuildingBottonsScript : MonoBehaviour
 
     public void Build()
     {
-        if (ResourceManager.RM.Money >= b.Cost)
+        bool alreadyBuilt = b.gameObject.activeSelf;
+        if (ResourceManager.RM.Money >= b.Cost && !alreadyBuilt)
         {
             ResourceManager.RM.SpendMoney(b.Cost);
             b.ActivateBuilding();
